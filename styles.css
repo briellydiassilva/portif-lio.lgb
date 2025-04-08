@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+.interface{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #7f18d4;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+  }
+
+  h2.titulo{
+color: #fff;
+font-size: 35px;
+text-align: center;
+  }
+
+  h2.titulo span{
+    color: #7f18d4;
+  }
+
+.logo-grup{
+  width: 150px;
+  height: auto;
+}
+header{
+  padding: 40px 4%;
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a{
+  color: #929292;
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+
+header a:hover{
+ color: #fff;
+ transform: scale(1.05);
+}
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+  font-size: 20px;
+}
+
+
+.btn-contato button:hover, form  .btn-enviar input:hover{
+box-shadow: 0px 0px 8px #ffffff;
+transform: scale(1.05);
+}
+
+.logo-lgb {
+  width: 170px;
+  height: auto;
+}
+
+.logo-grup{
+  width: 400px;
+  height: 600px;
+  border-radius: 50px;
+}
+
+section.topo-do-site{
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topo-do-site h1{
+  color: #fff;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.topo-do-site .img-topo-site{
+  position: relative;
+  animation: voar 2s ease-in-out infinite alternate;
+}
+
+@keyframes voar{
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 30px;
+  }
+}
+
+section.histórias{
+  padding: 35px 4%;
+}
+section.histórias .flex{
+  gap: 30px;
+}
+
+.histórias .historia-box{
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: .2s;
+  line-height: 21px;
+}
+
+
+.histórias .historia-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #7f18d4;
+  cursor: pointer;
+}
+
+.histórias .historia-box p{
+  font-size: 18px;
+}
+
+/*sobre lata*/
+
+section.sobre{
+  padding: 40px 4%;
+}
+
+.lara-sobre{
+  margin-right: 30px;
+  width: 380px;
+  height: 350px;
+  border-radius: 150px;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+  text-align: justify;
+}
+
+.sobre .txt-sobre{
+  color: #fff;
+}
+
+.sobre .txt-sobre h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.titulo-galeria {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.formulario {
+  color: bisque;
+  display: flex;
+  border-radius: 150px;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+.container{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
